@@ -107,7 +107,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>Auth</finalName>
+		<finalName>Authorization</finalName>
 	</build>
 
 </project>

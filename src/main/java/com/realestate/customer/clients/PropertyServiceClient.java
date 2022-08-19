@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 import com.realestate.customer.entities.Property;
 
-@FeignClient(name = "property-service", url = "http://localhost:8082/property")
+@FeignClient(name = "property-service", url = "http://0propertymicroservice-env.eba-6m53cifr.us-west-1.elasticbeanstalk.com/property")
 public interface PropertyServiceClient {
 
 	@GetMapping("/getAllProperties")

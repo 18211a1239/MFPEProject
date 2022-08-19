@@ -25,7 +25,7 @@ import cts.mfpe.manager.exceptions.ExecutiveNotFoundException;
 import cts.mfpe.manager.services.ManagerService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin("http://real-state-project2.s3-website-us-west-1.amazonaws.com")
 public class ManagerController {
 
 	@Autowired

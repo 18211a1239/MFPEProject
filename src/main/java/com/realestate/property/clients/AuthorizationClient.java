@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-@FeignClient(name = "Authorization-Microservice", url = "http://localhost:8084/auth")
+@FeignClient(name = "Authorization-Microservice", url = "http://1authorizationmicroservice-env.eba-rdammtvc.us-west-1.elasticbeanstalk.com/auth")
 public interface AuthorizationClient{
 	
 	@PostMapping(value = "/authorize")

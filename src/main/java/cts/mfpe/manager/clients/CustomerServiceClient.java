@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 import cts.mfpe.manager.entities.Customer;
 
-@FeignClient(name="customer-service",url = "http://localhost:8081/customer")
+@FeignClient(name="customer-service",url = "http://0customermicroservice-env.eba-cp9cmhes.us-west-1.elasticbeanstalk.com/customer")
 public interface CustomerServiceClient {
 
 	@GetMapping("/getCustomerDetails/{id}")
